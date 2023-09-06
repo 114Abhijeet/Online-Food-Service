@@ -1,0 +1,189 @@
+*{
+    margin:0px;
+     padding:0px;
+   }
+   :root{
+     --navbar-height:59px;
+   }
+   #logo{
+     margin:0px 20px;
+   }
+   #logo img{
+     margin:4px 5px;
+   }
+   html{
+     scroll-behavior:smooth;
+   }
+   #navbar{
+     display:flex;
+     align-items:center;
+     top:0px;
+   }
+   #navbar ul{
+     display:flex;
+     margin:40px 10px;
+   }
+   #navbar::before{
+     content:"";
+     background-color:black;
+     position:absolute;
+     height:100%;
+     width:100%;
+     z-index:-1;
+     opacity:0.3;
+   }
+   #navbar ul li{
+     list-style:none;
+     font-size:1.3rem;
+   }
+   #navbar ul li a{
+     color:white;
+     text-decoration:none;
+     display:block;
+     padding:3px 22px;
+     border-radius:20px;
+   }
+   #navbar ul li a:hover{
+     color:black;
+     background-color:white;
+   }
+   #home{
+     display:flex;
+     flex-direction:column;
+     padding:3px 200px;
+     justify-content:center;
+     align-items:center;
+     height: 226px;
+     margin:70px 2px;
+   }
+   #home::before{
+     content:"";
+     background:url('https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg') no-repeat center center/cover;
+     position:absolute;
+     top:110px;
+     height:49%;
+     width:100%;
+     z-index:-1;
+     opacity:0.89; 
+   }
+   #home h1{
+     text-align:center;
+     color:white;
+   }
+   #home p{
+     text-align:center;
+     color:white;
+     font-size:1.4em;
+   }
+   #services{
+     margin:0px;
+     display:flex;
+   }
+   #services-container::before{
+     content:"";
+     background:url('https://cdn.pixabay.com/photo/2017/09/22/21/43/table-2777180_960_720.jpg') no-repeat center center/cover;
+     position:absolute;
+     height:52%;
+     width:100%;
+     z-index:-1;
+     opacity:0.89; 
+   }
+   #services .box{
+     border:2px solid brown;
+     border-radius:25px;
+     padding:10px;
+     margin:0px 3px;
+     background:#f2f2f2;
+     height:300px;
+   }
+   #services-container h1{
+     font-size:2rem;
+   }
+   #services .box img{
+     height:160px;
+     width:300px;
+     margin:5px auto;
+     display:block;
+   }
+   #client-section::before{
+     content:"";
+     position:absolute;
+     margin-top:15px;
+   background:url('https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_960_720.jpg')no-repeat center center/cover;
+     width:100%;
+     height:33%;
+     z-index:-1;
+     opacity:0.5;
+   }
+   #clients{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+   }
+   .client-item img{
+     height:124px;
+   }
+   .client-item{
+     padding:34px;
+   }
+   #client-section h1{
+     position:relative;
+     top:10px;
+   }
+   #contact{
+     position:relative;
+   }
+   #contact::before{
+     content:"";
+     position:absolute;
+     width:100%;
+     height:100%;
+     z-index:-1;
+     opacity:0.7;
+     background:url('https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_960_720.jpg')no-repeat center center/cover;
+   }
+   #contact-box{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     padding-bottom:34px;
+   }
+   #contact-box input,#contact-box textarea{
+     width:100%;
+     padding:0.5rem;
+     border-radius:9px;
+     font-size:1.1rem;
+   }
+   #contact-box form{
+     width:40%;
+   }
+   #contact-box label{
+     font-size:1.3rem;
+   }
+   footer{
+     background-color:black;
+     color:white;
+     padding:9px 20px;
+   }
+   .h-primary{
+     font-size:2.8rem;
+     padding:12px;
+   }
+   .h-secondary{
+     font-size:1.8rem;
+     padding:12px;
+   }
+   .btn{
+     padding:6px 20px;
+     border:2px solid white;
+     background-color:pink;
+     color:white;
+     margin:17px;
+     font-size:1rem;
+     border-radius:10px;
+     cursor:pointer;
+   }
+   .center{
+     text-align:center;
+   }
+   
